@@ -10,10 +10,6 @@ export class ContactService {
   public contacts: Contact[] = [
     { id: uuid(), name: 'Osiris', phone: '809-222-8566' },
     { id: uuid(), name: 'Din Lan', phone: '809-333-2143' },
-    { id: uuid(), name: 'Nercida', phone: '809-888-2753' },
-    { id: uuid(), name: 'Analuisa', phone: '809-666-7469' },
-    { id: uuid(), name: 'Rebeca', phone: '809-777-2791' },
-    { id: uuid(), name: 'Yadilka', phone: '809-999-3795' },
   ];
 
   public addContact(contact: Contact): void {
