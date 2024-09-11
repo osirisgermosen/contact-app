@@ -1,0 +1,11 @@
+<h1>Contacts</h1>
+<span>{{ contacts.length }} contacts</span>
+<hr>
+<div class="row">
+    <div class="col">
+        <contact-list (onDelete)="onDeleteContact($event)" [contacts]="contacts"></contact-list>
+    </div>
+    <div class="col">
+        <contact-add (onAddContact)="onAddContact($event)"></contact-add>
+    </div>
+</div>

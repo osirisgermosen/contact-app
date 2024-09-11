@@ -1,0 +1,9 @@
+<form (ngSubmit)="emitContact()" class="row">
+    <div class="mb-3">
+        <input [(ngModel)]="contact.name" name="name" class="form-control mb-2" id="nameInput" type="text"
+            placeholder="Name" />
+        <input [(ngModel)]="contact.phone" name="phone" class="form-control mb-2" id="phoneInput" type="text"
+            placeholder="Phone" />
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
